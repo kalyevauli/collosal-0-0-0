@@ -151,6 +151,9 @@ button{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 3px;
 }
+.client-block div{
+    margin-left: 30px;
+}
 .blog-two{
     width: 70px;
     height: 70px;
@@ -183,6 +186,125 @@ button{
     background: rgba(255, 255, 255, 0.05);
 }
 /*client-end*/
+
+/*logo-start*/
+#logo{
+    padding: 40px 0;
+}
+.logo h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.logo-line{
+    background: rgba(255, 255, 255, 0.1);
+    width: 1200px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+}
+.logo-title ion-icon{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 5px;
+}
+/*logo-end*/
+
+/*team-start*/
+#team{
+    padding: 40px 0;
+}
+.team-logo{
+    margin-bottom: 100px;
+    width: 47px;
+    height: 47px;
+    background: linear-gradient(180deg, #FF81A6 0%, #FC165B 100%);
+    filter: blur(5px);
+    transform: rotate(-34.72deg);
+    border-radius: 50%;
+}
+.team-two{
+    margin-right: 60px;
+    margin-bottom: 100px;
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(180deg, #66FFA3 0%, #009C3E 100%);
+    filter: blur(5px);
+    transform: rotate(-34.72deg);
+    border-radius: 50%;
+}
+.team-three{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 29px;
+    height: 29px;
+    background: #6016FC;
+    filter: blur(5px);
+    transform: rotate(-34.72deg);
+    border-radius: 50%;
+}
+.team-title h2{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #16FCD2;
+}
+.team-title h1{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*team-end*/
+
+/*manager-start*/
+#manager{
+    padding: 40px 0;
+}
+.manager-logo{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+    width: 328px;
+    height: 480px;
+}
+.manager-logo h1{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.manager-logo p{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.manager{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*manager-end*/
 
 
 /*time-start*/
